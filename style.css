@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+body{
+    display: flex;
+}
+.container{
+    display: grid;
+    border: 1px solid;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px   gray;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    right: 32%;
+    top: 6%;
+    border-radius: 0.2em;
+
+    
+}
+.content{
+    padding: 5px;
+    border: 0.2em;
+}
+.a{
+    color: blue;
+}
+.o{
+    color: red;
+}
+.c{
+    color: yellow;
+}
+.d{
+    color: green;
+}
+.one{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.two{
+    text-align: center;
+    padding: 10px;
+  
+}
+.three{
+    text-align: center;
+}
+.email{
+    margin: 10px;
+    width: 350px ;
+    height: 30px;
+    padding: 10px;
+    border-radius: .5em;
+    
+}
+.four{
+    margin: 10px;
+    
+}
+.five{
+    margin: 10px;
+
+}
+.six{
+     margin: 10px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    margin: -5px 5px;
+    width:70px;
+    height: 35px;
+    background-color: blue; 
+     color: white; 
+}
+@media only screen and (max-width: 500px) {
+    .btn{
+        /* margin: auto; */
+        background-color: red;
+        color: black;
+    }
+}
+
+}
